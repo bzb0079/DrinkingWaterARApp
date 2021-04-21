@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "251630019202",
+    "firebase_url": "https://arlocation-6154a.firebaseio.com",
+    "project_id": "arlocation-6154a",
+    "storage_bucket": "arlocation-6154a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251630019202:android:8c337ebfb6c17b4e338a9b",
+        "android_client_info": {
+          "package_name": "app.th.project.drinkingWaterAR"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251630019202-dh764a0u04qkrlab7q84a3sce736mt2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfcd9ebNxfYrlHqXJ6Wi8aMUYVNvkZixc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251630019202-dh764a0u04qkrlab7q84a3sce736mt2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

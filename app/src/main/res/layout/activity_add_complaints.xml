@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        tools:context="app.th.project.drinkingWaterAR.view.AddComplaintsActivity"
+        android:id="@+id/complaintScrollView">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:background="#fff">
+
+        <ImageView
+                android:id="@+id/logo"
+                android:layout_centerHorizontal="true"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                />
+        <TextView
+                android:id="@+id/placeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logo"
+                android:layout_marginStart="20dp"
+                android:textColor="#0A2440"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:text="Please select the building" />
+        <Spinner
+                android:id="@+id/location_spinner"
+                android:layout_below="@id/placeName"
+                android:layout_marginStart="20dp"
+                android:textColor="#0A2440"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"/>
+        <TextView
+                android:id="@+id/complaint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/location_spinner"
+                android:layout_marginStart="20dp"
+                android:textColor="#0A2440"
+                android:textSize="20sp"
+                android:text="Please fill in your complaint below" />
+<!--        <TextView-->
+<!--                android:id="@+id/emailTextView"-->
+<!--                android:layout_below="@id/logo"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:textColor="#0A2440"-->
+<!--                android:textSize="20sp"-->
+<!--                android:text="Logged In As User." />-->
+        <EditText
+                android:id="@+id/plain_text_input"
+                android:layout_below="@+id/complaint"
+                android:inputType="textMultiLine"
+                android:lines="20"
+                android:minLines="5"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical"
+                android:layout_marginStart="20dp"
+                android:textColor="#0A2440"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+        <TextView
+                android:layout_below="@id/plain_text_input"
+                android:id="@+id/complaintInputError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:textColor="#9a311d"
+                android:textSize="18sp" />
+        <Button
+                android:id="@+id/complaintButton"
+                android:layout_below="@id/complaintInputError"
+                android:layout_width="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginEnd="80dp"
+                android:layout_marginRight="80dp"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:background="#0A2440"
+                android:text="File Complaint" />
+        <Button
+                android:id="@+id/logoutButton"
+                android:layout_below="@id/complaintButton"
+                android:layout_width="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginEnd="80dp"
+                android:layout_marginRight="80dp"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:background="#0A2440"
+                android:text="Logout" />
+<!--        <ProgressBar-->
+<!--                android:id="@+id/progress_circular"-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="70dp"-->
+<!--                android:visibility="invisible"-->
+<!--                android:layout_centerInParent="true"/>-->
+
+<!--        <Space-->
+<!--                android:layout_below="@+id/registerLink"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp" />-->
+
+    </RelativeLayout>
+
+</ScrollView>

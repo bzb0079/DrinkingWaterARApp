@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <com.google.ar.sceneform.ArSceneView
+            android:id="@+id/arSceneView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="vertical"
+            android:gravity="top">
+
+<!--        <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/select_for_complaint" />-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_button"
+            android:onClick="onButtonTapped"
+            android:text="File/View Complaint"
+            />
+
+
+        <!-- Include other widget or layout tags here. These are considered
+                "child views" or "children" of the linear layout -->
+
+    </LinearLayout>
+
+</FrameLayout>

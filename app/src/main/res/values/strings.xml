@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Drinking Water AU</string>
+    <string name="arcore_not_installed">Please install ARCore</string>
+    <string name="arcore_not_updated">Please update ARCore</string>
+    <string name="arcore_not_supported">This device does not support AR</string>
+    <string name="camera_and_location_permission_request">Location and Camera permissions are needed to use this
+        feature
+    </string>
+    <string name="loading_message">Loading your current location...</string>
+    <string name="select_for_complaint"><font color='white'>Login to file/view complaint:</font></string>
+    <string name="user"><font color='white'>Login</font></string>
+</resources>
